@@ -6,6 +6,11 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.ts\""
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "keywords": [
     "ngrx",
     "angular",
@@ -24,6 +29,9 @@
   },
   "homepage": "https://github.com/datencia/ngrx-store-reset#readme",
   "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "husky": "^2.2.0",
     "prettier": "^1.17.0"
   }
 }
