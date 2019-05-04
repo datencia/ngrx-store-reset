@@ -4,7 +4,7 @@
   "description": "@ngrx/store meta reducer to reset the state",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write \"src/**/*.ts\""
   },
   "keywords": [
     "ngrx",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/datencia/ngrx-store-reset/issues"
   },
-  "homepage": "https://github.com/datencia/ngrx-store-reset#readme"
+  "homepage": "https://github.com/datencia/ngrx-store-reset#readme",
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  }
 }
