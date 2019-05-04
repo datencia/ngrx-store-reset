@@ -1,0 +1,26 @@
+{
+  "name": "ngrx-store-reset",
+  "version": "0.0.1",
+  "description": "@ngrx/store meta reducer to reset the state",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ngrx",
+    "angular",
+    "redux",
+    "store",
+    "reset"
+  ],
+  "author": "David Atencia <david.atencia@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datencia/ngrx-store-reset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/datencia/ngrx-store-reset/issues"
+  },
+  "homepage": "https://github.com/datencia/ngrx-store-reset#readme"
+}
