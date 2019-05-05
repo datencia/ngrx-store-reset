@@ -4,7 +4,8 @@
   "description": "@ngrx/store meta reducer to reset the state",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write \"src/**/*.ts\""
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json -c tslint.json"
   },
   "husky": {
     "hooks": {
@@ -39,6 +40,9 @@
     "husky": "^2.2.0",
     "prettier": "^1.17.0",
     "rxjs": "^5.5.12",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "~2.6.2",
     "zone.js": "^0.8.29"
   }
 }
