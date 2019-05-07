@@ -1,6 +1,6 @@
 {
   "name": "ngrx-store-reset",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "@ngrx/store meta reducer to reset the state",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
