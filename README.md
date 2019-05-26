@@ -35,9 +35,11 @@ export const reducers: ActionReducerMap<State> = {
 }
 
 // Pass your action type (the one you'd like to reset the state) to the metareducer
-export const storeResetReducer = storeReset({ action: ActionTypes.Logout });
+export function storeResetMetaReducer(reducer: ActionReducer<State>): ActionReducer<State> {
+  return storeReset({ action: ActionTypes.Logout })(reducer);
+}
 
-export const metaReducers: MetaReducer<State>[] = [storeResetReducer];
+export const metaReducers: MetaReducer<State>[] = [ storeResetMetaReducer ];
 
 @NgModule({
   imports: [
